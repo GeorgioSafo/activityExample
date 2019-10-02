@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.system.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:6:5-94:19
+12        android:allowBackup="true"
+12-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/gevorksafaryan/.gradle/caches/transforms-2/files-2.1/e6403649940cf83439c3c303fa89effb/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:12:9-40
+21        <activity android:name="ru.system.myapplication.MainActivity" >
+21-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:14:9-29:20
+21-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:14:19-47
+22            <intent-filter>
+22-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:15:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:17-68
+23-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:17-76
+25-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27            <intent-filter>
+27-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:19:13-28:29
+28                <action android:name="android.intent.action.VIEW" />
+28-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:17-68
+28-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:17-75
+30-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:27-73
+31                <category android:name="android.intent.category.BROWSABLE" />
+31-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:17-77
+31-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:27-75
+32
+33                <data
+33-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:25:17-27:44
+34                    android:host="www.example.com"
+34-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:26:21-51
+35                    android:scheme="http" />
+35-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:27:21-42
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:30:9-45:20
+39            android:name="ru.system.myapplication.MainActivity2"
+39-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:31:13-42
+40            android:launchMode="singleInstance" >
+40-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:32:13-48
+41            <intent-filter>
+41-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:15:13-18:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:17-68
+42-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:17-76
+44-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:27-74
+45            </intent-filter>
+46            <intent-filter>
+46-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:37:13-44:29
+47                <action android:name="android.intent.action.VIEW" />
+47-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:17-68
+47-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:25-66
+48
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:17-77
+49-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:27-75
+50
+51                <data
+51-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:25:17-27:44
+52                    android:host="www.example.com"
+52-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:26:21-51
+53                    android:pathPrefix="/main2"
+53-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:42:21-48
+54                    android:scheme="http" />
+54-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:27:21-42
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:46:9-64:20
+58            android:name="ru.system.myapplication.MainActivity3"
+58-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:47:13-42
+59            android:launchMode="singleTop" >
+59-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:48:13-43
+60            <intent-filter>
+60-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:15:13-18:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:17-68
+61-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:17-76
+63-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:27-74
+64            </intent-filter>
+65            <intent-filter>
+65-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:53:13-63:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:17-68
+66-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:17-75
+68-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:17-77
+69-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:27-75
+70
+71                <data
+71-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:25:17-27:44
+72                    android:host="www.example.com"
+72-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:26:21-51
+73                    android:pathPrefix="/main3"
+73-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:42:21-48
+74                    android:scheme="http" />
+74-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:27:21-42
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:65:9-93:20
+78            android:name="ru.system.myapplication.MainActivity4"
+78-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:66:13-42
+79            android:launchMode="singleTask" >
+79-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:67:13-44
+80            <intent-filter>
+80-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:15:13-18:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:17-68
+81-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:16:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:17-76
+83-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:17:27-74
+84            </intent-filter>
+85            <intent-filter android:label="Example by host" >
+85-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:72:13-82:29
+85-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:72:28-59
+86                <action android:name="android.intent.action.VIEW" />
+86-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:17-68
+86-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:17-75
+88-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:17-77
+89-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:27-75
+90
+91                <data
+91-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:25:17-27:44
+92                    android:host="www.example.com"
+92-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:26:21-51
+93                    android:pathPrefix="/main4"
+93-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:42:21-48
+94                    android:scheme="http" />
+94-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:27:21-42
+95            </intent-filter>
+96            <intent-filter android:label="Example by scheme" >
+96-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:83:13-92:29
+96-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:83:28-61
+97                <action android:name="android.intent.action.VIEW" />
+97-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:17-68
+97-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:20:25-66
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:17-75
+99-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:22:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:17-77
+100-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:23:27-75
+101
+102                <data
+102-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:25:17-27:44
+103                    android:host="main4"
+103-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:26:21-51
+104                    android:scheme="example" />
+104-->/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/src/main/AndroidManifest.xml:27:21-42
+105            </intent-filter>
+106        </activity>
+107    </application>
+108
+109</manifest>

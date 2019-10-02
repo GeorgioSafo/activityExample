@@ -1,0 +1,4 @@
+#Wed Oct 02 11:15:54 MSK 2019
+base.0=/Users/gevorksafaryan/Projects/Sber/sbol/sbol_android_app_2/MyApplication2/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
